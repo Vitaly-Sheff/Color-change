@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.lightTheme {
+    background-color: #ffffff;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #727272;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+span {
+    font-weight: 700;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+      
+}
+
+.colorFrame {
+    width: 1140px;
+    height: 524px;
+    background-color: #42D9FB;
+    border-radius: 22px;
+    margin-bottom: 40px;
+}
+
+.lightTheme .switch_icn {
+    content:url('/img/moon.svg');
+    width: 27px;
+    height: 27px;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 354px;
+    height: 100px;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 22px;
+    border-style: none;
+
+}
+
+.btn_blue {
+    background: #42D9FB;
+}
+
+.btn_green {
+    background: #42FB6B;
+}
+
+.btn_pink {
+    background: #EC42FB;
+}
+
+/* Темная тема */
+
+.darkTheme {
+    background-color: #242424;
+}
+
+.darkTheme h1 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.darkTheme .switch_icn {
+    content:url('/img/sun.svg');
+    width: 27px;
+    height: 27px;
+
+}
